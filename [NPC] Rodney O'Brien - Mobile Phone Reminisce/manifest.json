@@ -1,0 +1,18 @@
+{
+  "Name": "Rodney O'Brien Mobile Phone Reminisce",
+  "Author": "TheFrenchDodo",
+  "Version": "1.0.0",
+  "Description": "Allows you to replay Rodney's events with the Mobile Phone",
+  "UniqueID": "TheFrenchDodo.RodneyMobilePhone",
+  "ContentPackFor": {
+    "UniqueID": "JoXW.MobilePhone",
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "JoXW.MobilePhone",
+   },
+   {
+      "UniqueID": "TheFrenchDodo.RodneyOBrien",
+   }
+  ]
+}

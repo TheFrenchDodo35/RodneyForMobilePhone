@@ -1,0 +1,123 @@
+{
+"events": [
+{
+"name": "That time we met at the library shortly after you moved here", //name is now a label that refers to an entry in the i18n folder files. At the least you will have to add an entry in i18n/default.json for each title you add (optionally for other language files as well).
+"location": "ArchaeologyHouse", //location is the name of the location, as per the json file in the game's Data/Events folder (events are sorted by location in the game, not by NPC).
+"eventId": "134371008", 
+"night": false, //night is whether the time should be forced to be night (doesn't do anything yet, this might change, as we probably need to force day as well, if I can figure out how)
+"mail": null //mail provides a list of "mail" flags that should be reset before starting the event, in order to allow making new choices. I'm not sure if this works, needs testing.
+},
+{
+"name": "The time I asked you which story I should write",
+"location": "Farm",
+"eventId": "134371001",
+"night": false,
+"mail": "ShadowfolkStory, DwarfStory"
+},
+{
+"name": "Remember when you met my daughter?",
+"location": "Saloon",
+"eventId": "134371002",
+"night": false,
+"mail": null
+},
+{
+"name": "When I read you that short story you inspired",
+"location": "EastScarp_RodneysHouse",
+"eventId": "134371003",
+"night": true,
+"mail": null
+},
+{
+"name": "When you visited while I was cleaning up my basement",
+"location": "EastScarp_RodneysBasement",
+"eventId": "134371004",
+"night": true,
+"mail": null
+},
+{
+"name": "The Book Launch Party for The Chronicles of Stardew Valley",
+"location": "Saloon",
+"eventId": "134371010",
+"night": true,
+"mail": null
+},
+{
+"name": "When I told you about my wife's passing",
+"location": "EastScarp_RodneysHouse",
+"eventId": "134371011",
+"night": false,
+"mail": null
+},
+{
+"name": "That time I met my friends at the library",
+"location": "ArchaeologyHouse",
+"eventId": "134371013",
+"night": false,
+"mail": null
+},
+{
+"name": "When we went to the National Library",
+"location": "BusStop",
+"eventId": "134371014",
+"night": false,
+"mail": null
+},
+{
+"name": "...the time you walked on me naked",
+"location": "EastScarp_RodneysHouse",
+"eventId": "134371007",
+"night": false,
+"mail": null
+},
+{
+"name": "When Oliver found a huge plot hole in one of my books",
+"location": "EastScarp_Village",
+"eventId": "134371016",
+"night": false,
+"mail": null
+},
+{
+"name": "The time I read poetry and the neighbours got angry",
+"location": "EastScarp_Village",
+"eventId": "134371017",
+"night": true,
+"mail": null
+},
+{
+"name": "When I met that giant mouse",
+"location": "EastScarp_Village",
+"eventId": "134371018",
+"night": true,
+"mail": null
+},
+{
+"name": "That time Rodney was building the mini-library",
+"location": "Town",
+"eventId": "134371019",
+"night": false,
+"mail": null
+},
+{
+"name": "When I asked you out...",
+"location": "Farm",
+"eventId": "134371020",
+"night": false,
+"mail": null
+},
+{
+"name": "Our first date",
+"location": "EastScarp_Village",
+"eventId": "134371021", 
+"night": true,
+"mail": null
+},
+{
+"name": "That morning I made you breakfast",
+"location": "EastScarp_RodneysHouse",
+"eventId": "134371022", 
+"night": false,
+"mail": null
+},
+]
+}
